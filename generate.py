@@ -13,7 +13,7 @@ Base your answer only on:
 
 You must give a numerical risk score based on the taxonomy guidelines.
 If the context is insufficient, say so clearly.
-All threate and indicators should be clearly justified.
+All threats and indicators should be clearly justified.
 
 RISK TAXONOMY / GUIDELINES:
 {taxonomy_text}
