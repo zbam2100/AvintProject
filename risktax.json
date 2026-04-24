@@ -1,0 +1,72 @@
+{
+  "type": "taxonomy",
+  "taxonomy_name": "Risk Scoring Taxonomy",
+  "version": "v1",
+  "category_id": "RiskScore.0-100",
+  "title": "Composite Risk Score (0–100)",
+  "definition": "A composite 0–100 risk score computed as the sum of five 0–20 sub-scores: Mechanism Severity, Emergence Stage, Discoverability, Environmental Amplifiers, and Damage Potential. The score maps to Low/Moderate/High/Critical severity bands.",
+  "score_bands": [
+    { "range": [0, 25], "label": "Low" },
+    { "range": [26, 50], "label": "Moderate" },
+    { "range": [51, 75], "label": "High" },
+    { "range": [76, 100], "label": "Critical" }
+  ],
+  "formula": {
+    "final_score": "mechanism_severity + emergence_stage + discoverability + environmental_amplifiers + damage_potential",
+    "bounds": { "min": 0, "max": 100 }
+  },
+  "dimensions": [
+    {
+      "dimension_id": "mechanism_severity",
+      "label": "Mechanism Severity",
+      "range": [0, 20],
+      "meaning": "How dangerous the vulnerability mechanism is in real systems."
+    },
+    {
+      "dimension_id": "emergence_stage",
+      "label": "Emergence Stage",
+      "range": [0, 20],
+      "meaning": "How developed or actively evolving the vulnerability is."
+    },
+    {
+      "dimension_id": "discoverability",
+      "label": "Discoverability",
+      "range": [0, 20],
+      "meaning": "How hard the vulnerability is to detect."
+    },
+    {
+      "dimension_id": "environmental_amplifiers",
+      "label": "Environmental Amplifiers",
+      "range": [0, 20],
+      "meaning": "Extra risk based on where the vulnerability resides (e.g., high-privilege accounts, external attack surfaces, critical ICS/OT/medical systems, supply chain exposure)."
+    },
+    {
+      "dimension_id": "damage_potential",
+      "label": "Damage Potential",
+      "range": [0, 20],
+      "meaning": "The scale and severity of harm if exploited."
+    }
+  ],
+  "prioritization_rules": [
+    {
+      "rule_id": "priority_high_sev_evolving_hard_to_detect",
+      "statement": "High mechanism severity + actively evolving + difficult to detect implies higher priority."
+    }
+  ],
+  "cvss_alignment_notes": [
+    { "label": "Critical", "guidance": "Very easy to exploit + high impact." },
+    { "label": "High", "guidance": "Moderately easy to exploit + strong impact." },
+    { "label": "Medium", "guidance": "Harder to exploit or partial impact." },
+    { "label": "Low", "guidance": "Hard to exploit + low impact/systemic barriers." }
+  ],
+  "required_inputs": [
+    "A description of the vulnerability mechanism",
+    "Any signals of maturity/evolution (e.g., active exploitation, repeated reports, rapid changes)",
+    "Detection difficulty or observability notes",
+    "Environment context (privilege, exposure, critical system classification, supply chain)",
+    "Potential impact scope (confidentiality/integrity/availability, safety, financial, operational)"
+  ],
+  "exclusions": [
+    "This taxonomy does not define specific numeric scoring rubrics within each 0–20 dimension; it defines the dimensions, formula, and band mapping."
+  ]
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "risk_score": 100.0,
+    "description": "The debug command in Sendmail is enabled, allowing attackers to execute commands as root."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "CWD ~root command in ftpd allows root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long shell or GECOS field."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to the configuration of the nobody user."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to access user bin."
+  },
+  {
+    "risk_score": 84.0,
+    "description": "Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Buffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERMCAP environmental variable."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "The SunView (SunTools) selection_svc facility allows remote users to read files."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "BuildDisk program on NeXT systems before 2.0 does not prompt users for the root password, which allows local users to gain root privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in NeXT 1.0a and 1.0 with publicly accessible printers allows local users to gain privileges via a combination of the npd program and weak directory permissions."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in restore0.9 installation script in NeXT 1.0a and 1.0 allows local users to gain root privileges."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "VMS 4.0 through 5.3 allows local users to gain privileges via the ANALYZE/PROCESS_DUMP dcl command."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "/usr/sbin/Mail on SGI IRIX 3.3 and 3.3.1 does not properly set the group ID to the group ID of the user who started Mail, which allows local users to read the mail of other users."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "TIOCCONS in SunOS 4.1.1 does not properly check the permissions of a user who tries to redirect console output and input, which could allow a local user to gain privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in the /etc/suid_exec program in HP Apollo Domain/OS sr10.2 and sr10.3 beta, related to the Korn Shell (ksh)."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "rpc.pwdauthd in SunOS 4.1.1 and earlier does not properly prevent remote access to the daemon, which allows remote attackers to obtain sensitive system information."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in /bin/mail in SunOS 4.1.1 and earlier allows local users to gain root privileges via certain command line arguments."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in in.telnetd in SunOS 4.1.1 and earlier allows local users to gain root privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in in.rlogind in SunOS 4.0.3 and 4.0.3c allows local users to gain root privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "chroot in Digital Ultrix 4.1 and 4.0 is insecurely installed, which allows local users to gain privileges."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "The \"me\" user in NeXT NeXTstep 2.1 and earlier has wheel group privileges, which could allow the me user to use the su command to become root."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "The installation of Sun Source (sunsrc) tapes allows local users to gain root privileges via setuid root programs (1) makeinstall or (2) winstall."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in login in AT&T System V Release 4 allows local users to gain privileges."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Vulnerability in /usr/bin/mail in DEC ULTRIX before 4.2 allows local users to gain privileges."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "The default configuration of NCSA Telnet package for Macintosh and PC enables FTP, even though it does not include an \"ftp=yes\" line, which allows remote attackers to read and modify arbitrary files."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "TFTP is not running in a restricted directory, allowing a remote attacker to access sensitive information such as password files."
+  },
+  {
+    "risk_score": 62.0,
+    "description": "rdist in various UNIX systems uses popen to execute sendmail, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "In SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Vulnerability in crp in Hewlett Packard Apollo Domain OS SR10 through SR10.3 allows remote attackers to gain root privileges via insecure system calls, (1) pad_$dm_cmd and (2) pad_$def_pfk()."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Vulnerability in LAT/Telnet Gateway (lattelnet) on Ultrix 4.1 and 4.2 allows attackers to gain root privileges."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Vulnerability in rexec daemon (rexecd) in AT&T TCP/IP 4.0 for various SVR4 systems allows remote attackers to execute arbitrary commands."
+  },
+  {
+    "risk_score": 0.0,
+    "description": "The rexd service is running, which uses weak authentication that can allow an attacker to execute commands."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "The default configuration for UUCP in AIX before 3.2 allows local users to gain root privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "AIX passwd allows local users to gain root access."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "FTP installation script anon.ftp in AIX insecurely configures anonymous FTP, which allows remote attackers to execute arbitrary commands."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "SunOS 4.1.2 and earlier allows local users to gain privileges via \"LD_*\" environmental variables to certain dynamically linked setuid or setgid programs such as (1) login, (2) su, or (3) sendmail, that change the real and effective user ids to the same user."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "The portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that would otherwise have taken place. For example, NFS file systems could be mounted through the portmapper despite export restrictions."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Denial of service by sending forged ICMP unreachable packets."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in integer multiplication emulation code on SPARC architectures for SunOS 4.1 through 4.1.2 allows local users to gain root access or cause a denial of service (crash)."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in Monitor utility (SYS$SHARE:SPISHR.EXE) in VMS 5.0 through 5.4-2 allows local users to gain privileges."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Cisco IOS 9.1 and earlier does not properly handle extended IP access lists when the IP route cache is enabled and the \"established\" keyword is set, which could allow attackers to bypass filters."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Vulnerability in Cisco routers versions 8.2 through 9.1 allows remote attackers to bypass access control lists when extended IP access lists are used on certain interfaces, the IP route cache is enabled, and the access list uses the \"established\" keyword."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "NFS on SunOS 4.1 through 4.1.2 ignores the high order 16 bits in a 32 bit UID, which allows a local user to gain root access if the lower 16 bits are set to 0, as fixed by the NFS jumbo patch upgrade."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "HP ypbind allows attackers with root privileges to modify NIS data."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Sun SunOS 4.1 through 4.1.3 allows local attackers to gain root access via insecure permissions on files and directories such as crash."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "Vulnerability in finger in Commodore Amiga UNIX 2.1p2a and earlier allows local users to read arbitrary files."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in DEC OpenVMS VAX 5.5-2 through 5.0, and OpenVMS AXP 1.0, allows local users to gain system privileges."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Cisco routers 9.17 and earlier allow remote attackers to bypass security restrictions via certain IP source routed packets that should normally be denied using the \"no ip source-route\" command."
+  },
+  {
+    "risk_score": 64.0,
+    "description": "Vulnerability in passwd in SCO UNIX 4.0 and earlier allows attackers to cause a denial of service by preventing users from being able to log into the system."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Vulnerabilities in UMN gopher and gopher+ versions 1.12 and 2.0x allow an intruder to read any files that can be accessed by the gopher daemon."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "LOGIN.EXE program in Novell Netware 4.0 and 4.01 temporarily writes user name and password information to disk, which could allow local users to gain privileges."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "SCO UNIX System V/386 Release 3.2, and other SCO products, installs the home directories (1) /tmp for the dos user, and (2) /usr/tmp for the asg user, which allows other users to gain access to those accounts since /tmp and /usr/tmp are world-writable."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "/usr/5bin/su in SunOS 4.1.3 and earlier uses a search path that includes the current working directory (.), which allows local users to gain privileges via Trojan horse programs."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Sendmail WIZ command enabled, allowing root access."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "The permissions for the /dev/audio device on Solaris 2.2 and earlier, and SunOS 4.1.x, allow any local user to read from the device, which could be used by an attacker to monitor conversations happening near a machine that has a microphone."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "In Solaris 2.2 and 2.3, when fsck fails on startup, it allows a local user with physical access to obtain root access."
+  },
+  {
+    "risk_score": 68.0,
+    "description": "The wall daemon can be used for denial of service, social engineering attacks, or to execute remote commands."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Vulnerability in subnetconfig in HP-UX 9.01 and 9.0 allows local users to gain privileges."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Extra long export lists over 256 characters in some mount daemons allows NFS directories to be mounted by anyone."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "AIX Licensed Program Product performance tools allow local users to gain root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Sun/Solaris utmp file allows local users to gain root access if it is writable by users other than root."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in VUE 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4994 and PHSS_5438."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in Glance and gpm programs in GlancePlus for HP-UX 9.x and earlier allows local users to access arbitrary files and gain privileges."
+  },
+  {
+    "risk_score": 62.0,
+    "description": "passwd in SunOS 4.1.x allows local users to overwrite arbitrary files via a symlink attack and the -F command line argument."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in Vue 3.0 in HP 9.x allows local users to gain root privileges, as fixed by PHSS_4038, PHSS_4055, and PHSS_4066."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Some implementations of rlogin allow root access if given a -froot parameter."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Vulnerability in hpterm on HP-UX 10.20 allows local users to gain additional privileges."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "AIX batch queue (bsh) allows local and remote users to gain additional privileges when network printing is enabled."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Remote attacker can execute commands through Majordomo using the Reply-To field and a \"lists\" command."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "HP-UX 9.x does not properly enable the Xauthority mechanism in certain conditions, which could allow local users to access the X display even when they have not explicitly been authorized to do so."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "dpsexec (DPS Server) when running under XDM in IBM AIX 3.2.5 and earlier does not properly check privileges, which allows local users to overwrite arbitrary files and gain privileges."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "colorview in Silicon Graphics IRIX 5.1, 5.2, and 6.0 allows local attackers to read arbitrary files via the -text argument."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in sgihelp in the SGI help system and print manager in IRIX 5.2 and earlier allows local users to gain root privileges, possibly through the clogin command."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Vulnerability in CORE-DIAG fileset in HP message catalog in HP-UX 9.05 and earlier allows local users to gain privileges."
+  },
+  {
+    "risk_score": 62.0,
+    "description": "serial_ports administrative program in IRIX 4.x and 5.x trusts the user's PATH environmental variable to find and execute the ls program, which allows local users to gain root privileges via a Trojan horse ls program."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Vulnerability in Support Watch (aka SupportWatch) in HP-UX 8.0 through 9.0 allows local users to gain privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Unspecified vulnerability in pt_chmod in SCO UNIX 4.2 and earlier allows local users to gain root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in prwarn in SCO UNIX 4.2 and earlier allows local users to gain root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in login in SCO UNIX 4.2 and earlier allows local users to gain root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in \"at\" program in SCO UNIX 4.2 and earlier allows local users to gain root access."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "rpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial of service via a malformed request."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Predictable TCP sequence numbers allow spoofing."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Buffer overflow in NCSA WebServer (version 1.5c) gives remote access."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Buffer overflow in NCSA WebServer (1.4.1 and below) gives remote access."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Remote attackers can access mail files via POP3 in some Linux systems that are using shadow passwords."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Vulnerability in BSD Telnet client with encryption and Kerberos 4 authentication allows remote attackers to decrypt the session via sniffing."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "SGI Desktop Permissions Tool in IRIX 6.0.1 and earlier allows local users to modify permissions for arbitrary files and gain privileges."
+  },
+  {
+    "risk_score": 76.0,
+    "description": "The SATAN session key may be disclosed if the user points the web browser to other sites, possibly allowing root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "rmmount in SunOS 5.7 may mount file systems without the nosuid flag set, contrary to the documentation and its use in previous versions of SunOS, which could allow local users with physical access to gain root privileges by mounting a floppy or CD-ROM that contains a setuid program and running volcheck, when the file systems do not have the nosuid option specified in rmmount.conf."
+  },
+  {
+    "risk_score": 98.0,
+    "description": "AnyForm CGI remote execution."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "In Cisco IOS 10.3, with the tacacs-ds or tacacs keyword, an extended IP access control list could bypass filtering."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "FormMail CGI program allows remote execution of commands."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "In Sendmail, attackers can gain root privileges via SMTP by specifying an improper \"mail from\" address and an invalid \"rcpt to\" address that would cause the mail to bounce to a program."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "SunOS sendmail 5.59 through 5.65 uses popen to process a forwarding host argument, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable and passing crafted values to the -oR option."
+  },
+  {
+    "risk_score": 62.0,
+    "description": "A race condition in the Solaris ps command allows an attacker to overwrite critical files."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "The ghostscript command with the -dSAFER option allows remote attackers to execute commands."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Some configurations of NIS+ in Linux allowed attackers to log in as the user \"+\"."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Livingston portmaster machines could be rebooted via a series of commands."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Telnet allows a remote client to specify environment variables including LD_LIBRARY_PATH, allowing an attacker to bypass the normal system libraries and gain root access."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Buffer overflow in syslog utility allows local or remote attackers to gain root privileges."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Guessable magic cookies in X Windows allows remote attackers to execute commands, e.g. through xterm."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Certain configurations of wu-ftp FTP server 2.4 use a _PATH_EXECPATH setting to a directory with dangerous commands, such as /bin, which allows remote authenticated users to gain root access via the \"site exec\" command."
+  },
+  {
+    "risk_score": 37.0,
+    "description": "Race condition in Linux mailx command allows local users to read user files."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in Linux splitvt command gives root access to local users."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "vhe_u_mnt program in HP-UX allows local users to create root files through symlinks."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "rpc.ypupdated (NIS) allows remote users to execute arbitrary commands."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "rxvt, when compiled with the PRINT_PIPE option in various Linux operating systems including Linux Slackware 3.0 and RedHat 2.1, allows local users to gain root privileges by specifying a malicious program using the -print-pipe command line parameter."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Vulnerability in object server program in SGI IRIX 5.2 through 6.1 allows remote attackers to gain root privileges in certain configurations."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "abuse.console in Red Hat 2.1 uses relative pathnames to find and execute the undrv program, which allows local users to execute arbitrary commands via a path that points to a Trojan horse program."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Echo and chargen, or other combinations of UDP services, can be used in tandem to flood the server, a.k.a. UDP bomb or UDP packet storm."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Kerberos 4 key servers allow a user to masquerade as another by breaking and generating session keys."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "IIS 1.0 allows users to execute arbitrary commands using .bat or .cmd files."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "The Java Applet Security Manager implementation in Netscape Navigator 2.0 and Java Developer's Kit 1.0 allows an applet to connect to arbitrary hosts."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "phf CGI program allows remote command execution through shell metacharacters."
+  },
+  {
+    "risk_score": 37.0,
+    "description": "Java Bytecode Verifier allows malicious applets to execute arbitrary commands as the user of the applet."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "test-cgi program allows an attacker to list files on the server."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "dxconsole in DEC OSF/1 3.2C and earlier allows local users to read arbitrary files by specifying the file with the -file parameter."
+  },
+  {
+    "risk_score": 19.0,
+    "description": "pcnfsd (aka rpc.pcnfsd) allows local users to change file permissions, or execute arbitrary commands through arguments in the RPC call."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Delete or create a file via rpc.statd, due to invalid information."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "Vulnerability in union file system in FreeBSD 2.2 and earlier, and possibly other operating systems, allows local users to cause a denial of service (system reload) via a series of certain mount_union commands."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Manual page reader (man) in FreeBSD 2.2 and earlier allows local users to gain privileges via a sequence of commands."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "The permissions for a system-critical NIS+ table (e.g. passwd) are inappropriate."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Perl, sh, csh, or other shell interpreters are installed in the cgi-bin directory on a WWW site, which allows remote attackers to execute arbitrary commands."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "nettune in HP-UX 10.01 and 10.00 is installed setuid root, which allows local users to cause a denial of service by modifying critical networking configuration information."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in a kernel error handling routine in SCO OpenServer 5.0.2 and earlier, and SCO Internet FastStart 1.0, allows local users to gain root privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "The suidperl and sperl program do not give up root privileges when changing UIDs back to the original users, allowing root access."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "The convert.bas program in the Novell web server allows a remote attackers to read any file on the system that is internally accessible by the web server."
+  },
+  {
+    "risk_score": 78.0,
+    "description": "Local user gains root privileges via buffer overflow in rdist, via expstr() function."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "The dip program on many Linux systems allows local users to gain root access via a buffer overflow."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "A design flaw in the Z-Modem protocol allows the remote sender of a file to execute arbitrary programs on the client, as implemented in rz in the rzsz module of FreeBSD before 2.1.5, and possibly other programs."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "cpio on FreeBSD 2.1.0, Debian GNU/Linux 3.0, and possibly other operating systems, uses a 0 umask when creating files using the -O (archive) or -F options, which creates the files with mode 0666 and allows local users to read or overwrite those files."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Local user gains root privileges via buffer overflow in rdist, via lookup() function."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "admintool in Solaris allows a local user to write to arbitrary files and gain root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Kodak Color Management System (KCMS) on Solaris allows a local user to write to arbitrary files and gain root access."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Solaris 2.4 before kernel jumbo patch -35 allows set-gid programs to dump core even if the real user id is not in the set-gid group, which allows local users to overwrite or create files at higher privileges by causing a core dump, e.g. through dmesg."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "vold in Solaris 2.x allows local users to gain root access."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "fm_fls license server for Adobe Framemaker allows local users to overwrite arbitrary files and gain root access."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "Expreserve, as used in vi and ex, allows local users to overwrite arbitrary files and gain root access."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Buffer overflow in rwhod on AIX and other operating systems allows remote attackers to execute arbitrary code via a UDP packet with a long hostname."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Pine before version 3.94 allows local users to gain privileges via a symlink attack on a lockfile that is created when a user receives new mail."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Sendmail before 8.6.7 allows local users to gain root access via a large value in the debug (-d) command line option."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "ppl program in HP-UX allows local users to create root files through symlinks."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in a certain system call in SCO UnixWare 2.0.x and 2.1.0 allows local users to access arbitrary files and gain root privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow and denial of service in Sendmail 8.7.5 and earlier through GECOS field gives root access to local users."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "(1) bash before 1.14.7, and (2) tcsh 6.05 allow local users to gain privileges via directory names that contain shell metacharacters (` back-tick), which can cause the commands enclosed in the directory name to be executed when the shell expands filenames using the \\w option in the PS1 variable."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Transarc DCE Distributed File System (DFS) 1.1 for Solaris 2.4 and 2.5 does not properly initialize the grouplist for users who belong to a large number of groups, which could allow those users to gain access to resources that are protected by DFS."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Denial of service when an attacker sends many SYN packets to create multiple connections without ever sending an ACK to complete the connection, aka SYN flood."
+  },
+  {
+    "risk_score": 62.0,
+    "description": "HPUX sysdiag allows local users to gain root privileges via a symlink attack during log file creation."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "MIME buffer overflow in Sendmail 8.8.0 and 8.8.1 gives root access."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "HP Remote Watch allows a remote user to gain root access."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "HP-UX gwind program allows users to modify arbitrary files."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in xmcd 2.1 allows local users to gain access through a user resource setting."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Bash treats any character with a value of 255 as a command separator."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "PASV core dump in wu-ftpd daemon when attacker uses a QUOTE PASV command after specifying a username and password."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "The WorkMan program can be used to overwrite any file to get root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Indigo Magic System Tour in the SGI system tour package (systour) for IRIX 5.x through 6.3 allows local users to gain root privileges via a Trojan horse .exitops program, which is called by the inst command that is executed by the RemoveSystemTour program."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "fpkg2swpk in HP-UX allows local users to gain root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in mstm in HP-UX allows local users to gain root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in ppl in HP-UX 10.x and earlier allows local users to gain root privileges by forcing ppl to core dump."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Local users can start Sendmail in daemon mode and gain root privileges."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "dxchpwd in Digital Unix (OSF/1) 3.x allows local users to modify arbitrary files via a symlink attack on the dxchpwd.log file."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Kerberos 4 allows remote attackers to obtain sensitive information via a malformed UDP packet that generates an error string that inadvertently includes the realm name and the last user."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Buffer overflow in cddbd CD database server allows remote attackers to execute arbitrary commands via a long log message."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in HP-UX newgrp program."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "fsdump command in IRIX allows local users to obtain root access by modifying sensitive files."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Sendmail allows local users to write to a file and gain group permissions via a .forward or :include: file."
+  },
+  {
+    "risk_score": 98.0,
+    "description": "Command execution via shell metachars in INN daemon (innd) 1.5 using \"newgroup\" and \"rmgroup\" control messages, and others."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Vulnerability in Desktop searchbook program in IRIX 5.0.x through 6.2 sets insecure permissions for certain user files (iconbook and searchbook)."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "List of arbitrary files on Web host via nph-test-cgi script."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Sendmail decode alias can be used to overwrite sensitive files."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Buffer overflow in AIX and Solaris \"gethostbyname\" library call allows root access through corrupt DNS host names."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in Vixie Cron library up to version 3.0 allows local users to obtain root access via a long environmental variable."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in chfn command in HP-UX 9.X through 10.20 allows local users to gain privileges via a long command line argument."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Oversized ICMP ping packets can result in a denial of service, aka Ping o' Death."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "swinstall and swmodify commands in SD-UX package in HP-UX systems allow local users to create or overwrite arbitrary files to gain root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in ppp program in FreeBSD 2.1 and earlier allows local users to gain privileges via a long HOME environment variable."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "aspppd on Solaris 2.5 x86 allows local users to modify arbitrary files and gain root privileges via a symlink attack on the /tmp/.asppp.fifo file."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "The jj CGI program allows command execution via shell metacharacters."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "Vulnerability in direct audio user space code on HP-UX 10.20 and 10.10 allows local users to cause a denial of service."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Remote access in AIX innd 1.5.1, using control messages."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "In older versions of Sendmail, an attacker could use a pipe character to execute root commands."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "NFS allows users to use a \"cd ..\" command to access other directories besides the exported file system."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Remote attackers can mount an NFS file system in Ultrix or OSF, even if it is denied on the access list."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "Denial of service in syslog by sending it a large number of superfluous messages."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "FormMail CGI program can be used by web servers other than the host server that the program resides on."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Buffer overflow in the win-c-sample program (win-c-sample.exe) in the WebSite web server 1.1e allows remote attackers to execute arbitrary code via a long query string."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Windows NT crashes or locks up when a Samba client executes a \"cd ..\" command on a file share."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "in.rshd allows users to login with a NULL username and execute commands."
+  },
+  {
+    "risk_score": 64.0,
+    "description": "A quote cwd command on FTP servers can reveal the full path of the home directory of the \"ftp\" user."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "The GNU tar command, when used in FTP sessions, may allow an attacker to execute arbitrary commands."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Sendmail 8.6.9 allows remote attackers to execute root commands, using ident."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Malicious option settings in UDP packets could force a reboot in SunOS 4.1.3 systems."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "ScriptAlias directory in NCSA and Apache httpd allowed attackers to read CGI programs."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Windows NT RSHSVC program allows remote users to execute arbitrary commands."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Denial of service in talk program allows remote attackers to disrupt a user's display."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Buffer overflow in listserv allows arbitrary command execution."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "IIS 3.0 with the iis-fix hotfix installed allows remote intruders to read source code for ASP programs by using a %2e instead of a . (dot) in the URL."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "ICMP redirect messages may crash or lock up a host."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Denial of service in Windows NT DNS servers through malicious packet which contains a response to a query that wasn't made."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Jolt ICMP attack causes a denial of service in Windows 95 and Windows NT systems."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "A Windows NT 4.0 user can gain administrative rights by forcing NtOpenProcessToken to succeed regardless of the user's permissions, aka GetAdmin."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "NETBIOS share information may be published through SNMP registry keys in NT."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "A Windows NT local user or administrator account has a guessable password."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "A Windows NT local user or administrator account has a default, null, blank, or missing password."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "A router or firewall allows source routed packets from arbitrary hosts."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "IP forwarding is enabled on a machine which is not a router or firewall."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "An SNMP community name is the default (e.g. public), null, or missing."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "A NETBIOS/SMB share password is guessable."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "A NETBIOS/SMB share password is the default, null, or missing."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "An NIS domain name is easily guessable."
+  },
+  {
+    "risk_score": 0.0,
+    "description": "IP traceroute is allowed from arbitrary hosts."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "A Windows NT user has inappropriate rights or privileges, e.g. Act as System, Add Workstation, Backup, Change System Time, Create Pagefile, Create Permanent Object, Create Token Name, Debug, Generate Security Audit, Increase Priority, Increase Quota, Load Driver, Lock Memory, Profile Single Process, Remote Shutdown, Replace Process Token, Restore, System Environment, Take Ownership, or Unsolicited Input."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "A Windows NT account policy for passwords has inappropriate, security-critical settings, e.g. for password length, password age, or uniqueness."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "A router's routing tables can be obtained from arbitrary hosts."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "The registry in Windows NT can be accessed remotely by users who are not administrators."
+  },
+  {
+    "risk_score": 93.0,
+    "description": ".reg files are associated with the Windows NT registry editor (regedit), making the registry susceptible to Trojan Horse attacks."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "A Windows NT system's user audit policy does not log an event success or failure, e.g. for Logon and Logoff, File and Object Access, Use of User Rights, User and Group Management, Security Policy Changes, Restart, Shutdown, and System, and Process Tracking."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "A Windows NT system's file audit policy does not log an event success or failure for security-critical files or directories."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "A Windows NT account policy has inappropriate, security-critical settings for lockout, e.g. lockout duration, lockout after bad logon attempts, etc."
+  },
+  {
+    "risk_score": 0.0,
+    "description": "A version of rusers is running that exposes valid user information to any entity on the network."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "netprint in SGI IRIX 6.4 and earlier trusts the PATH environmental variable for finding and executing the disable program, which allows local users to gain privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Arbitrary file creation and program execution using FLEXlm LicenseManager, from versions 4.0 to 5.0, in IRIX."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "movemail in HP-UX 10.20 has insecure permissions, which allows local users to gain privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in Glance programs in GlancePlus for HP-UX 10.20 and earlier allows local users to access arbitrary files and gain privileges."
+  },
+  {
+    "risk_score": 46.0,
+    "description": "Vulnerability in dtlogin and dtsession in HP-UX 10.20 and 10.10 allows local users to bypass authentication and gain privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Csetup under IRIX allows arbitrary file creation or overwriting."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Vulnerability in chsh command in HP-UX 9.X through 10.20 allows local users to gain privileges."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "wu-ftp allows files to be overwritten via the rnfr command."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Talkd, when given corrupt DNS information, can be used to execute arbitrary commands with root privileges."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in Solaris getopt in libc allows local users to gain root privileges via a long argv[0]."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "MIME conversion buffer overflow in sendmail versions 8.8.3 and 8.8.4."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Certain files in MPower in HP-UX 10.x are installed with insecure permissions, which allows local users to gain privileges."
+  },
+  {
+    "risk_score": 64.0,
+    "description": "The view-source CGI program allows remote attackers to read arbitrary files via a .. (dot dot) attack."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "HP-UX vgdisplay program gives root access to local users."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "The Sun sdtcm_convert calendar utility for OpenWindows has a buffer overflow which can gain root access."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "IRIX startmidi program allows local users to modify arbitrary files via a symlink attack."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Vulnerability in ftpd/kftpd in HP-UX 10.x and 9.x allows local and possibly remote users to gain root privileges."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "rcp on various Linux systems including Red Hat 4.0 allows a \"nobody\" user or other user with UID of 65535 to overwrite arbitrary files, since 65535 is interpreted as -1 by chown and other system calls, which causes the calls to fail to modify the ownership of the file."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "ypbind with -ypset and -ypsetme options activated in Linux Slackware and SunOS allows local and remote attackers to overwrite files via a .. (dot dot) attack."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "Buffer overflow of rlogin program using TERM environmental variable."
+  },
+  {
+    "risk_score": 50.0,
+    "description": "Denial of service in RPCSS.EXE program (RPC Locator) in Windows NT."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in ffbconfig in Solaris 2.5.1."
+  },
+  {
+    "risk_score": 75.0,
+    "description": "Buffer overflow in NLS (Natural Language Service)."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "ucbmail allows remote attackers to execute commands via shell metacharacters that are passed to it from INN."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "finger allows recursive searches by using a long string of @ symbols."
+  },
+  {
+    "risk_score": 21.0,
+    "description": "Finger redirection allows finger bombs."
+  },
+  {
+    "risk_score": 100.0,
+    "description": "NFS cache poisoning."
+  },
+  {
+    "risk_score": 72.0,
+    "description": "Buffer overflow in xmcd 2.0p12 allows local users to gain access through an environmental variable."
+  }
+]

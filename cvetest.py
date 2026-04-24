@@ -4,8 +4,24 @@ import re
 from pathlib import Path
 from datetime import datetime
 
-from config import RISK_TAX_FILE, OLLAMA_URL, OLLAMA_MODEL, TOP_K
-from ingest import load_risk_taxonomy, risk_taxonomy_to_text
+from config import (
+    RISK_TAX_FILE,
+    OLLAMA_URL,
+    OLLAMA_MODEL,
+    TOP_K,
+    CVE_REFERENCE_FILE,
+    DATA_FILES,
+    EMBED_MODEL_NAME,
+)
+from ingest import (
+    load_risk_taxonomy,
+    risk_taxonomy_to_text,
+    load_multiple_files,
+    prepare_chunks,
+    load_prechunked_json,
+)
+from embed_store import build_vector_store
+from retrieve import retrieve_chunks
 from generate import ask_ollama
 from storage import save_run_file
 
@@ -89,6 +105,22 @@ def run_test():
     taxonomy = load_risk_taxonomy(RISK_TAX_FILE)
     taxonomy_text = risk_taxonomy_to_text(taxonomy)
 
+    print("Loading base records...")
+    records = load_multiple_files(DATA_FILES)
+    chunk_records = prepare_chunks(records)
+    print(f"Prepared {len(chunk_records)} base chunks")
+
+    print("Loading CVE reference chunks...")
+    cve_chunks = load_prechunked_json(CVE_REFERENCE_FILE)
+    print(f"Loaded {len(cve_chunks)} CVE reference chunks")
+
+    chunk_records.extend(cve_chunks)
+    print(f"Total chunks after CVE merge: {len(chunk_records)}")
+
+    print("Building vector store...")
+    embed_model, index = build_vector_store(chunk_records, EMBED_MODEL_NAME)
+    print("Vector store ready")
+
     print("Loading test data...")
     test_items = load_test_data(TEST_DATA_FILE)
     print(f"Loaded {len(test_items)} test cases")
@@ -101,6 +133,17 @@ def run_test():
         "timestamp": datetime.now().isoformat(),
         "model": OLLAMA_MODEL,
         "test_data_file": str(TEST_DATA_FILE),
+        "top_k": TOP_K,
+        "num_reference_chunks": len(cve_chunks),
+        "config": {
+            "DATA_FILES": [str(p) for p in DATA_FILES],
+            "CVE_REFERENCE_FILE": str(CVE_REFERENCE_FILE),
+            "RISK_TAX_FILE": str(RISK_TAX_FILE),
+            "OLLAMA_URL": OLLAMA_URL,
+            "OLLAMA_MODEL": OLLAMA_MODEL,
+            "EMBED_MODEL_NAME": EMBED_MODEL_NAME,
+            "TOP_K": TOP_K,
+        },
         "cases": []
     }
 
@@ -108,12 +151,22 @@ def run_test():
         description = str(item["description"]).strip()
         actual_score = float(item["risk_score"])
 
-        query = "Assess the risk and enumerate the most likely threats from this vulnerability description."
-        retrieved_chunks = [{"text": description}]
+        query = f"""Assess the risk and enumerate the most likely threats from this vulnerability description:
+
+{description}
+"""
 
         print(f"\n[{i}/{len(test_items)}] Running test case...")
 
         try:
+            retrieved_chunks = retrieve_chunks(
+                query=query,
+                index=index,
+                chunk_records=chunk_records,
+                embed_model=embed_model,
+                top_k=TOP_K
+            )
+
             prompt, answer = ask_ollama(
                 query=query,
                 retrieved_chunks=retrieved_chunks,
@@ -133,7 +186,6 @@ def run_test():
             error = predicted_score - actual_score
             abs_error = abs(error)
 
-            
             run_payload["cases"].append({
                 "case_id": f"case_{i:03d}",
                 "description": description,
@@ -141,10 +193,20 @@ def run_test():
                 "predicted_risk_score": predicted_score,
                 "error": error,
                 "absolute_error": abs_error,
+                "retrieved_chunks": [
+                    {
+                        "title": chunk.get("title", ""),
+                        "record_type": chunk.get("record_type", ""),
+                        "cve_id": chunk.get("cve_id", ""),
+                        "risk_score": chunk.get("risk_score", ""),
+                        "severity": chunk.get("severity", ""),
+                        "text": chunk.get("text", "")
+                    }
+                    for chunk in retrieved_chunks
+                ],
                 "prompt": prompt,
                 "response": answer
             })
-            
 
             y_true.append(actual_score)
             y_pred.append(predicted_score)
@@ -178,7 +240,6 @@ def run_test():
     }
 
     testset_name = Path(TEST_DATA_FILE).stem
-
     file_path = save_run_file(f"test_k{TOP_K}_{testset_name}", run_payload)
 
     print("\nDone.")

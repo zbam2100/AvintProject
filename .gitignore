@@ -1,0 +1,8 @@
+.venv/
+venv/
+__pycache__/
+out/
+outputs/
+testoutputs/
+github_token.txt
+*.pyc

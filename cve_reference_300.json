@@ -1,0 +1,2402 @@
+[
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0627\ndescription: The rexd service is running, which uses weak authentication that can allow an attacker to execute commands.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0627",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0627"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0525\ndescription: IP traceroute is allowed from arbitrary hosts.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0525",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0525"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0626\ndescription: A version of rusers is running that exposes valid user information to any entity on the network.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0626",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0626"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0612\ndescription: A version of finger is running that exposes valid user information to any entity on the network.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0612",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0612"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0532\ndescription: A DNS server allows zone transfers.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0532",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0532"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0497\ndescription: Anonymous FTP is enabled.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0497",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0497"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0523\ndescription: ICMP echo (ping) is allowed from arbitrary hosts.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0523",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0523"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0586\ndescription: A network service is running on a nonstandard port.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0586",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0586"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0613\ndescription: The rpc.sprayd service is running.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0613",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0613"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0624\ndescription: The rstat/rstatd service is running.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0624",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0624"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0625\ndescription: The rpc.rquotad service is running.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0625",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0625"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0629\ndescription: The ident/identd service is running.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0629",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0629"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0632\ndescription: The RPC portmapper service is running.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0632",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0632"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0635\ndescription: The echo service is running.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0635",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0635"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0637\ndescription: The systat service is running.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0637",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0637"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0638\ndescription: The daytime service is running.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0638",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0638"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0639\ndescription: The chargen service is running.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0639",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0639"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0641\ndescription: The UUCP service is running.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0641",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0641"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0657\ndescription: WinGate is being used.\nseverity: \nrisk_score: 0",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0657",
+    "risk_score": 0,
+    "severity": "",
+    "title": "CVE-1999-0657"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0078\ndescription: pcnfsd (aka rpc.pcnfsd) allows local users to change file permissions, or execute arbitrary commands through arguments in the RPC call.\nseverity: \nrisk_score: 19",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0078",
+    "risk_score": 19,
+    "severity": "",
+    "title": "CVE-1999-0078"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1486\ndescription: sadc in IBM AIX 4.1 through 4.3, when called from programs such as timex that are setgid adm, allows local users to overwrite arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1486",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-1999-1486"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1480\ndescription: (1) acledit and (2) aclput in AIX 4.3 allow local users to create or modify files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1480",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-1999-1480"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0371\ndescription: Lynx allows a local user to overwrite sensitive files through /tmp symlinks.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0371",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-1999-0371"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0371\ndescription: The libmediatool library used for the KDE mediatool allows local users to create arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0371",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2000-0371"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0475\ndescription: A race condition in how procmail handles .procmailrc files allows a local user to read arbitrary files available to the user who is running procmail.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0475",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-1999-0475"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1042\ndescription: Cisco Resource Manager (CRM) 1.0 and 1.1 creates world-readable log files and temporary files, which may expose sensitive information, to local users such as user IDs, passwords and SNMP community strings.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1042",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-1999-1042"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0224\ndescription: ARCserve agent in SCO UnixWare 7.x allows local attackers to gain root privileges via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0224",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2000-0224"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0154\ndescription: The ARCserve agent in UnixWare allows local attackers to modify arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0154",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2000-0154"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0210\ndescription: The lit program in Sun Flex License Manager (FlexLM) follows symlinks, which allows local users to modify arbitrary files.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0210",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2000-0210"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0718\ndescription: A race condition in MandrakeUpdate allows local users to modify RPM files while they are in the /tmp directory before they are installed.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0718",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2000-0718"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0723\ndescription: Helix GNOME Updater helix-update 0.5 and earlier does not properly create /tmp directories, which allows local users to create empty system configuration files such as /etc/config.d/bashrc, /etc/config.d/csh.cshrc, and /etc/rc.config.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0723",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2000-0723"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-1045\ndescription: nss_ldap earlier than 121, when run with nscd (name service caching daemon), allows remote attackers to cause a denial of service via a flood of LDAP requests.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-1045",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2000-1045"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0959\ndescription: glibc2 does not properly clear the LD_DEBUG_OUTPUT and LD_DEBUG environmental variables when a program is spawned from a setuid program, which could allow local users to overwrite files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0959",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2000-0959"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0095\ndescription: catman in Solaris 2.7 and 2.8 allows local users to overwrite arbitrary files via a symlink attack on the sman_PID temporary file.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0095",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0095"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0890\ndescription: periodic in FreeBSD 4.1.1 and earlier, and possibly other operating systems, allows local users to overwrite arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0890",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2000-0890"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0036\ndescription: KTH Kerberos IV allows local users to overwrite arbitrary files via a symlink attack on a ticket file.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0036",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0036"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0109\ndescription: rctab in SuSE 7.0 and earlier allows local users to create or overwrite arbitrary files via a symlink attack on the rctmp temporary file.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0109",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0109"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0116\ndescription: gpm 1.19.3 allows local users to overwrite arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0116",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0116"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0117\ndescription: sdiff 2.7 in the diffutils package allows local users to overwrite files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0117",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0117"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0118\ndescription: rdist 6.1.5 allows local users to overwrite arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0118",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0118"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0119\ndescription: getty_ps 2.0.7j allows local users to overwrite arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0119",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0119"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0120\ndescription: useradd program in shadow-utils program may allow local users to overwrite arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0120",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0120"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0125\ndescription: exmh 2.2 and earlier allows local users to overwrite arbitrary files via a symlink attack on the exmhErrorMsg temporary file.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0125",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0125"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0132\ndescription: Interscan VirusWall 3.6.x and earlier follows symbolic links when uninstalling the product, which allows local users to overwrite arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0132",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0132"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0138\ndescription: privatepw program in wu-ftpd before 2.6.1-6 allows local users to overwrite arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0138",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0138"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0139\ndescription: inn 2.2.3 allows local users to overwrite arbitrary files via a symlink attack in some configurations.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0139",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0139"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0140\ndescription: arpwatch 2.1a4 allows local users to overwrite arbitrary files via a symlink attack in some configurations.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0140",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0140"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0141\ndescription: mgetty 1.1.22 allows local users to overwrite arbitrary files via a symlink attack in some configurations.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0141",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0141"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0142\ndescription: squid 2.3 and earlier allows local users to overwrite arbitrary files via a symlink attack in some configurations.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0142",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0142"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1554\ndescription: /usr/sbin/Mail on SGI IRIX 3.3 and 3.3.1 does not properly set the group ID to the group ID of the user who started Mail, which allows local users to read the mail of other users.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1554",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1554"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1218\ndescription: Vulnerability in finger in Commodore Amiga UNIX 2.1p2a and earlier allows local users to read arbitrary files.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1218",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1218"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1137\ndescription: The permissions for the /dev/audio device on Solaris 2.2 and earlier, and SunOS 4.1.x, allow any local user to read from the device, which could be used by an attacker to monitor conversations happening near a machine that has a microphone.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1137",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1137"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1494\ndescription: colorview in Silicon Graphics IRIX 5.1, 5.2, and 6.0 allows local attackers to read arbitrary files via the -text argument.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1494",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1494"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1314\ndescription: Vulnerability in union file system in FreeBSD 2.2 and earlier, and possibly other operating systems, allows local users to cause a denial of service (system reload) via a series of certain mount_union commands.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1314",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1314"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1205\ndescription: nettune in HP-UX 10.01 and 10.00 is installed setuid root, which allows local users to cause a denial of service by modifying critical networking configuration information.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1205",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1205"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1572\ndescription: cpio on FreeBSD 2.1.0, Debian GNU/Linux 3.0, and possibly other operating systems, uses a 0 umask when creating files using the -O (archive) or -F options, which creates the files with mode 0666 and allows local users to read or overwrite those files.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1572",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1572"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0133\ndescription: fm_fls license server for Adobe Framemaker allows local users to overwrite arbitrary files and gain root access.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0133",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-0133"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0132\ndescription: Expreserve, as used in vi and ex, allows local users to overwrite arbitrary files and gain root access.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0132",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-0132"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1221\ndescription: dxchpwd in Digital Unix (OSF/1) 3.x allows local users to modify arbitrary files via a symlink attack on the dxchpwd.log file.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1221",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1221"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1251\ndescription: Vulnerability in direct audio user space code on HP-UX 10.20 and 10.10 allows local users to cause a denial of service.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1251",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1251"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0171\ndescription: Denial of service in syslog by sending it a large number of superfluous messages.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0171",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-0171"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0105\ndescription: finger allows recursive searches by using a long string of @ symbols.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0105",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-0105"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0106\ndescription: Finger redirection allows finger bombs.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0106",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-0106"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1408\ndescription: Vulnerability in AIX 4.1.4 and HP-UX 10.01 and 9.05 allows local users to cause a denial of service (crash) by using a socket to connect to a port on the localhost, calling shutdown to clear the socket, then using the same socket to connect to a different port on localhost.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1408",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1408"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1402\ndescription: The access permissions for a UNIX domain socket are ignored in Solaris 2.x and SunOS 4.x, and other BSD-based operating systems before 4.4, which could allow local users to connect to the socket and possibly disrupt or control the operations of the program using that socket.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1402",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1402"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1449\ndescription: SunOS 4.1.4 on a Sparc 20 machine allows local users to cause a denial of service (kernel panic) by reading from the /dev/tcx0 TCX device.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1449",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1449"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0144\ndescription: Denial of service in Qmail by specifying a large number of recipients with the RCPT command.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0144",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-0144"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0957\ndescription: MajorCool mj_key_cache program allows local users to modify files via a symlink attack.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0957",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-0957"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1423\ndescription: ping in Solaris 2.3 through 2.6 allows local users to cause a denial of service (crash) via a ping request to a multicast address through the loopback interface, e.g. via ping -i.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1423",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1423"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0031\ndescription: JavaScript in Internet Explorer 3.x and 4.x, and Netscape 2.x, 3.x and 4.x, allows remote attackers to monitor a user's web activities, aka the Bell Labs vulnerability.\nseverity: \nrisk_score: 26",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0031",
+    "risk_score": 26,
+    "severity": "",
+    "title": "CVE-1999-0031"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0524\ndescription: ICMP information such as (1) netmask and (2) timestamp is allowed from arbitrary hosts.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0524",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-0524"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1446\ndescription: Internet Explorer 3 records a history of all URL's that are visited by a user in DAT files located in the Temporary Internet Files and History folders, which are not cleared when the user selects the \"Clear History\" option, and are not visible when the user browses the folders because of tailored displays.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1446",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1446"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1214\ndescription: The asynchronous I/O facility in 4.4 BSD kernel does not check user credentials when setting the recipient of I/O notification, which allows local users to cause a denial of service by using certain ioctl and fcntl calls to cause the signal to be sent to an arbitrary process ID.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1214",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1214"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0322\ndescription: The open() function in FreeBSD allows local attackers to write to arbitrary files.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0322",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-0322"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0327\ndescription: SGI syserr program allows local users to corrupt files.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0327",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-0327"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1439\ndescription: gcc 2.7.2 allows local users to overwrite arbitrary files via a symlink attack on temporary .i, .s, or .o files.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1439",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1439"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1429\ndescription: DIT TransferPro installs devices with world-readable and world-writable permissions, which could allow local users to damage disks through the ff device driver.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1429",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1429"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1269\ndescription: Screen savers in KDE beta 3 allows local users to overwrite arbitrary files via a symlink attack on the .kss.pid file.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1269",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1269"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1229\ndescription: Quake 2 server 3.13 on Linux does not properly check file permissions for the config.cfg configuration file, which allows local users to read arbitrary files via a symlink from config.cfg to the target file.\nseverity: \nrisk_score: 21",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1229",
+    "risk_score": 21,
+    "severity": "",
+    "title": "CVE-1999-1229"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0123\ndescription: Race condition in Linux mailx command allows local users to read user files.\nseverity: \nrisk_score: 37",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0123",
+    "risk_score": 37,
+    "severity": "",
+    "title": "CVE-1999-0123"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0141\ndescription: Java Bytecode Verifier allows malicious applets to execute arbitrary commands as the user of the applet.\nseverity: \nrisk_score: 37",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0141",
+    "risk_score": 37,
+    "severity": "",
+    "title": "CVE-1999-0141"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1224\ndescription: IMAP 4.1 BETA, and possibly other versions, does not properly handle the SIGABRT (abort) signal, which allows local users to crash the server (imapd) via certain sequences of commands, which causes a core dump that may contain sensitive password information.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1224",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-1999-1224"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1498\ndescription: Slackware Linux 3.4 pkgtool allows local attacker to read and write to arbitrary files via a symlink attack on the reply file.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1498",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-1999-1498"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0159\ndescription: Attackers can crash a Cisco IOS router or device, provided they can get to an interactive prompt (such as a login).  This applies to some IOS 9.x, 10.x, and 11.x releases.\nseverity: low\nrisk_score: 35",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0159",
+    "risk_score": 35,
+    "severity": "low",
+    "title": "CVE-1999-0159"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0401\ndescription: A race condition in Linux 2.2.1 allows local users to read arbitrary memory from /proc files.\nseverity: \nrisk_score: 37",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0401",
+    "risk_score": 37,
+    "severity": "",
+    "title": "CVE-1999-0401"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1366\ndescription: Pegasus e-mail client 3.0 and earlier uses weak encryption to store POP3 passwords in the pmail.ini file, which allows local users to easily decrypt the passwords and read e-mail.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1366",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-1999-1366"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0703\ndescription: OpenBSD, BSDI, and other Unix operating systems allow users to set chflags and fchflags on character and block devices.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0703",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-1999-0703"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0885\ndescription: Alibaba web server allows remote attackers to execute commands via a pipe character in a malformed URL.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0885",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-1999-0885"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1530\ndescription: cgiwrap as used on Cobalt RaQ 2.0 and RaQ 3i does not properly identify the user for running certain scripts, which allows a malicious site administrator to view or modify data located at another virtual site on the same system.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1530",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-1999-1530"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0828\ndescription: UnixWare pkg commands such as pkginfo, pkgcat, and pkgparam allow local users to read arbitrary files via the dacread permission.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0828",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-1999-0828"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0850\ndescription: The default permissions for Endymion MailMan allow local users to read email or modify files.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0850",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-1999-0850"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0825\ndescription: The default permissions for UnixWare /var/mail allow local users to read and modify other users' mail.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0825",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-1999-0825"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1300\ndescription: Vulnerability in accton in Cray UNICOS 6.1 and 6.0 allows local users to read arbitrary files and modify system accounting configuration.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1300",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-1999-1300"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1590\ndescription: Directory traversal vulnerability in Muhammad A. Muquit wwwcount (Count.cgi) 2.3 allows remote attackers to read arbitrary GIF files via \"..\" sequences in the image parameter, a different vulnerability than CVE-1999-0021.\nseverity: \nrisk_score: 35",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1590",
+    "risk_score": 35,
+    "severity": "",
+    "title": "CVE-1999-1590"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0090\ndescription: VMWare 1.1.2 allows local users to cause a denial of service via a symlink attack.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0090",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-2000-0090"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0121\ndescription: The Recycle Bin utility in Windows NT and Windows 2000 allows local users to read or modify files by creating a subdirectory with the victim's SID in the recycler directory, aka the \"Recycle Bin Creation\" vulnerability.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0121",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-2000-0121"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0472\ndescription: Buffer overflow in innd 2.2.2 allows remote attackers to execute arbitrary commands via a cancel request containing a long message ID.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0472",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-2000-0472"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0270\ndescription: The make-temp-name Lisp function in Emacs 20 creates temporary files with predictable names, which allows attackers to conduct a symlink attack.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0270",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-2000-0270"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0409\ndescription: Netscape 4.73 and earlier follows symlinks when it imports a new certificate, which allows local users to overwrite files of the user importing the certificate.\nseverity: \nrisk_score: 37",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0409",
+    "risk_score": 37,
+    "severity": "",
+    "title": "CVE-2000-0409"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0379\ndescription: The Netopia R9100 router does not prevent authenticated users from modifying SNMP tables, even if the administrator has configured it to do so.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0379",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-2000-0379"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0487\ndescription: The Protected Store in Windows 2000 does not properly select the strongest encryption when available, which causes it to use a default of 40-bit encryption instead of 56-bit DES encryption, aka the \"Protected Store Key Length\" vulnerability.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0487",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-2000-0487"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0578\ndescription: SGI MIPSPro compilers C, C++, F77 and F90 generate temporary files in /tmp with predictable file names, which could allow local users to insert malicious contents into these files as they are being compiled by another user.\nseverity: \nrisk_score: 37",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0578",
+    "risk_score": 37,
+    "severity": "",
+    "title": "CVE-2000-0578"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0579\ndescription: IRIX crontab creates temporary files with predictable file names and with the umask of the user, which could allow local users to modify another user's crontab file as it is being edited.\nseverity: \nrisk_score: 37",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0579",
+    "risk_score": 37,
+    "severity": "",
+    "title": "CVE-2000-0579"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0667\ndescription: Vulnerability in gpm in Caldera Linux allows local users to delete arbitrary files or conduct a denial of service.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0667",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-2000-0667"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0799\ndescription: inpview in InPerson in SGI IRIX 5.3 through IRIX 6.5.10 allows local users to gain privileges via a symlink attack on the .ilmpAAA temporary file.\nseverity: \nrisk_score: 37",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0799",
+    "risk_score": 37,
+    "severity": "",
+    "title": "CVE-2000-0799"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0802\ndescription: The BAIR program does not properly restrict access to the Internet Explorer Internet options menu, which allows local users to obtain access to the menu by modifying the registry key that starts BAIR.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0802",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-2000-0802"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0880\ndescription: LPPlus creates the lpdprocess file with world-writeable permissions, which allows local users to kill arbitrary processes by specifying an alternate process ID and using the setuid dcclpdshut program to kill the process that was specified in the lpdprocess file.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0880",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-2000-0880"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-1096\ndescription: crontab by Paul Vixie uses predictable file names for a temporary file and does not properly ensure that the file is owned by the user executing the crontab -e command, which allows local users with write access to the crontab spool directory to execute arbitrary commands by creating world-writeable temporary files and modifying them while the victim is editing the file.\nseverity: \nrisk_score: 37",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-1096",
+    "risk_score": 37,
+    "severity": "",
+    "title": "CVE-2000-1096"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-1127\ndescription: registrar in the HP resource monitor service allows local users to read and modify arbitrary files by renaming the original registrar.log log file and creating a symbolic link to the target file, to which registrar appends log information and sets the permissions to be world readable.\nseverity: \nrisk_score: 36",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-1127",
+    "risk_score": 36,
+    "severity": "",
+    "title": "CVE-2000-1127"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1122\ndescription: Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1122",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1122"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1057\ndescription: VMS 4.0 through 5.3 allows local users to gain privileges via the ANALYZE/PROCESS_DUMP dcl command.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1057",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1057"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1415\ndescription: Vulnerability in /usr/bin/mail in DEC ULTRIX before 4.2 allows local users to gain privileges.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1415",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1415"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0167\ndescription: In SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0167",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-0167"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1215\ndescription: LOGIN.EXE program in Novell Netware 4.0 and 4.01 temporarily writes user name and password information to disk, which could allow local users to gain privileges.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1215",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1215"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1242\ndescription: Vulnerability in subnetconfig in HP-UX 9.01 and 9.0 allows local users to gain privileges.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1242",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1242"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0423\ndescription: Vulnerability in hpterm on HP-UX 10.20 allows local users to gain additional privileges.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0423",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-0423"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1239\ndescription: HP-UX 9.x does not properly enable the Xauthority mechanism in certain conditions, which could allow local users to access the X display even when they have not explicitly been authorized to do so.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1239",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1239"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1238\ndescription: Vulnerability in CORE-DIAG fileset in HP message catalog in HP-UX 9.05 and earlier allows local users to gain privileges.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1238",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1238"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1248\ndescription: Vulnerability in Support Watch (aka SupportWatch) in HP-UX 8.0 through 9.0 allows local users to gain privileges.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1248",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1248"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1243\ndescription: SGI Desktop Permissions Tool in IRIX 6.0.1 and earlier allows local users to modify permissions for arbitrary files and gain privileges.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1243",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1243"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0245\ndescription: Some configurations of NIS+ in Linux allowed attackers to log in as the user \"+\".\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0245",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-0245"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0143\ndescription: Kerberos 4 key servers allow a user to masquerade as another by breaking and generating session keys.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0143",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-0143"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1103\ndescription: dxconsole in DEC OSF/1 3.2C and earlier allows local users to read arbitrary files by specifying the file with the -file parameter.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1103",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1103"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1313\ndescription: Manual page reader (man) in FreeBSD 2.2 and earlier allows local users to gain privileges via a sequence of commands.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1313",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1313"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1413\ndescription: Solaris 2.4 before kernel jumbo patch -35 allows set-gid programs to dump core even if the real user id is not in the set-gid group, which allows local users to overwrite or create files at higher privileges by causing a core dump, e.g. through dmesg.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1413",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1413"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1187\ndescription: Pine before version 3.94 allows local users to gain privileges via a symlink attack on a lockfile that is created when a user receives new mail.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1187",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1187"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1383\ndescription: (1) bash before 1.14.7, and (2) tcsh 6.05 allow local users to gain privileges via directory names that contain shell metacharacters (` back-tick), which can cause the commands enclosed in the directory name to be executed when the shell expands filenames using the \\w option in the PS1 variable.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1383",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1383"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1295\ndescription: Transarc DCE Distributed File System (DFS) 1.1 for Solaris 2.4 and 2.5 does not properly initialize the grouplist for users who belong to a large number of groups, which could allow those users to gain access to resources that are protected by DFS.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1295",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1295"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0308\ndescription: HP-UX gwind program allows users to modify arbitrary files.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0308",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-0308"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0234\ndescription: Bash treats any character with a value of 255 as a command separator.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0234",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-0234"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0129\ndescription: Sendmail allows local users to write to a file and gain group permissions via a .forward or :include: file.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0129",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-0129"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1401\ndescription: Vulnerability in Desktop searchbook program in IRIX 5.0.x through 6.2 sets insecure permissions for certain user files (iconbook and searchbook).\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1401",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1401"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0534\ndescription: A Windows NT user has inappropriate rights or privileges, e.g. Act as System, Add Workstation, Backup, Change System Time, Create Pagefile, Create Permanent Object, Create Token Name, Debug, Generate Security Audit, Increase Priority, Increase Quota, Load Driver, Lock Memory, Profile Single Process, Remote Shutdown, Replace Process Token, Restore, System Environment, Take Ownership, or Unsolicited Input.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0534",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-0534"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1120\ndescription: netprint in SGI IRIX 6.4 and earlier trusts the PATH environmental variable for finding and executing the disable program, which allows local users to gain privileges.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1120",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1120"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1249\ndescription: movemail in HP-UX 10.20 has insecure permissions, which allows local users to gain privileges.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1249",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1249"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1311\ndescription: Vulnerability in dtlogin and dtsession in HP-UX 10.20 and 10.10 allows local users to bypass authentication and gain privileges.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1311",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1311"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1184\ndescription: Buffer overflow in Elm 2.4 and earlier allows local users to gain privileges via a long TERM environmental variable.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1184",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1184"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1483\ndescription: Buffer overflow in zgv in svgalib 1.2.10 and earlier allows local users to execute arbitrary code via a long HOME environment variable.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1483",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-1483"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0156\ndescription: wu-ftpd FTP daemon allows any user and password combination.\nseverity: \nrisk_score: 46",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0156",
+    "risk_score": 46,
+    "severity": "",
+    "title": "CVE-1999-0156"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0209\ndescription: The SunView (SunTools) selection_svc facility allows remote users to read files.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0209",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0209"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1258\ndescription: rpc.pwdauthd in SunOS 4.1.1 and earlier does not properly prevent remote access to the daemon, which allows remote attackers to obtain sensitive system information.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1258",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-1258"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0312\ndescription: HP ypbind allows attackers with root privileges to modify NIS data.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0312",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0312"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0211\ndescription: Extra long export lists over 256 characters in some mount daemons allows NFS directories to be mounted by anyone.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0211",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0211"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0508\ndescription: rpc.lockd in Red Hat Linux 6.1 and 6.2 allows remote attackers to cause a denial of service via a malformed request.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0508",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-2000-0508"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0077\ndescription: Predictable TCP sequence numbers allow spoofing.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0077",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0077"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1098\ndescription: Vulnerability in BSD Telnet client with encryption and Kerberos 4 authentication allows remote attackers to decrypt the session via sniffing.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1098",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-1098"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0218\ndescription: Livingston portmaster machines could be rebooted via a series of commands.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0218",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0218"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0103\ndescription: Echo and chargen, or other combinations of UDP services, can be used in tandem to flood the server, a.k.a. UDP bomb or UDP packet storm.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0103",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0103"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0070\ndescription: test-cgi program allows an attacker to list files on the server.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0070",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0070"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0019\ndescription: Delete or create a file via rpc.statd, due to invalid information.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0019",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0019"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0175\ndescription: The convert.bas program in the Novell web server allows a remote attackers to read any file on the system that is internally accessible by the web server.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0175",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0175"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0116\ndescription: Denial of service when an attacker sends many SYN packets to create multiple connections without ever sending an ACK to complete the connection, aka SYN flood.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0116",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0116"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0075\ndescription: PASV core dump in wu-ftpd daemon when attacker uses a QUOTE PASV command after specifying a username and password.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0075",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0075"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1099\ndescription: Kerberos 4 allows remote attackers to obtain sensitive information via a malformed UDP packet that generates an error string that inadvertently includes the realm name and the last user.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1099",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-1099"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0096\ndescription: Sendmail decode alias can be used to overwrite sensitive files.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0096",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0096"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0128\ndescription: Oversized ICMP ping packets can result in a denial of service, aka Ping o' Death.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0128",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0128"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0166\ndescription: NFS allows users to use a \"cd ..\" command to access other directories besides the exported file system.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0166",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0166"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0173\ndescription: FormMail CGI program can be used by web servers other than the host server that the program resides on.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0173",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0173"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0179\ndescription: Windows NT crashes or locks up when a Samba client executes a \"cd ..\" command on a file share.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0179",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0179"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0217\ndescription: Malicious option settings in UDP packets could force a reboot in SunOS 4.1.3 systems.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0217",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0217"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0251\ndescription: Denial of service in talk program allows remote attackers to disrupt a user's display.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0251",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0251"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0265\ndescription: ICMP redirect messages may crash or lock up a host.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0265",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0265"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0274\ndescription: Denial of service in Windows NT DNS servers through malicious packet which contains a response to a query that wasn't made.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0274",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0274"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0345\ndescription: Jolt ICMP attack causes a denial of service in Windows 95 and Windows NT systems.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0345",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0345"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0582\ndescription: A Windows NT account policy has inappropriate, security-critical settings for lockout, e.g. lockout duration, lockout after bad logon attempts, etc.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0582",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0582"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0081\ndescription: wu-ftp allows files to be overwritten via the rnfr command.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0081",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0081"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0228\ndescription: Denial of service in RPCSS.EXE program (RPC Locator) in Windows NT.\nseverity: \nrisk_score: 50",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0228",
+    "risk_score": 50,
+    "severity": "",
+    "title": "CVE-1999-0228"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1128\ndescription: Internet Explorer 3.01 on Windows 95 allows remote malicious web sites to execute arbitrary commands via a .isp file, which is automatically downloaded and executed without prompting the user.\nseverity: \nrisk_score: 51",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1128",
+    "risk_score": 51,
+    "severity": "",
+    "title": "CVE-1999-1128"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1525\ndescription: Macromedia Shockwave before 6.0 allows a malicious webmaster to read a user's mail box and possibly access internal web servers via the GetNextText command on a Shockwave movie.\nseverity: \nrisk_score: 51",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1525",
+    "risk_score": 51,
+    "severity": "",
+    "title": "CVE-1999-1525"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1468\ndescription: rdist in various UNIX systems uses popen to execute sendmail, which allows local users to gain root privileges by modifying the IFS (Internal Field Separator) variable.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1468",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-1468"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1162\ndescription: Vulnerability in passwd in SCO UNIX 4.0 and earlier allows attackers to cause a denial of service by preventing users from being able to log into the system.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1162",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-1162"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0181\ndescription: The wall daemon can be used for denial of service, social engineering attacks, or to execute remote commands.\nseverity: \nrisk_score: 68",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0181",
+    "risk_score": 68,
+    "severity": "",
+    "title": "CVE-1999-0181"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1388\ndescription: passwd in SunOS 4.1.x allows local users to overwrite arbitrary files via a symlink attack and the -F command line argument.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1388",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-1388"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1022\ndescription: serial_ports administrative program in IRIX 4.x and 5.x trusts the user's PATH environmental variable to find and execute the ls program, which allows local users to gain root privileges via a Trojan horse ls program.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1022",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-1022"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0164\ndescription: A race condition in the Solaris ps command allows an attacker to overwrite critical files.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0164",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-0164"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0961\ndescription: HPUX sysdiag allows local users to gain root privileges via a symlink attack during log file creation.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0961",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-0961"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0201\ndescription: A quote cwd command on FTP servers can reveal the full path of the home directory of the \"ftp\" user.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0201",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-0201"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0174\ndescription: The view-source CGI program allows remote attackers to read arbitrary files via a .. (dot dot) attack.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0174",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-0174"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1398\ndescription: Vulnerability in xfsdump in SGI IRIX may allow local users to obtain root privileges via the bck.log log file, possibly via a symlink attack.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1398",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-1398"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1410\ndescription: addnetpr in IRIX 5.3 and 6.2 allows local users to overwrite arbitrary files and possibly gain root privileges via a symlink attack on the printers temporary file.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1410",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-1410"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0074\ndescription: Listening TCP ports are sequentially allocated, allowing spoofing attacks.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0074",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-0074"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0184\ndescription: When compiled with the -DALLOW_UPDATES option, bind allows dynamic updates to the DNS server, allowing for malicious modification of DNS records.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0184",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-0184"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0183\ndescription: Linux implementations of TFTP would allow access to files outside the restricted directory.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0183",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-0183"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0191\ndescription: IIS newdsn.exe CGI script allows remote users to overwrite files.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0191",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-0191"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0965\ndescription: Race condition in xterm allows local users to modify arbitrary files via the logging option.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0965",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-0965"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1424\ndescription: Solaris Solstice AdminSuite (AdminSuite) 2.1 uses unsafe permissions when adding new users to the NIS+ password table, which allows local users to gain root access by modifying their password table entries.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1424",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-1424"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1425\ndescription: Solaris Solstice AdminSuite (AdminSuite) 2.1 incorrectly sets write permissions on source files for NIS maps, which could allow local users to gain privileges by modifying /etc/passwd.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1425",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-1425"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1426\ndescription: Solaris Solstice AdminSuite (AdminSuite) 2.1 follows symbolic links when updating an NIS database, which allows local users to overwrite arbitrary files.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1426",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-1426"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1427\ndescription: Solaris Solstice AdminSuite (AdminSuite) 2.1 and 2.2 create lock files insecurely, which allows local users to gain root privileges.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1427",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-1427"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1428\ndescription: Solaris Solstice AdminSuite (AdminSuite) 2.1 and 2.2 allows local users to gain privileges via the save option in the Database Manager, which is running with setgid bin privileges.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1428",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-1428"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1274\ndescription: iPass RoamServer 3.1 creates temporary files with world-writable permissions.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1274",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-1274"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1361\ndescription: Windows NT 3.51 and 4.0 running WINS (Windows Internet Name Service) allows remote attackers to cause a denial of service (resource exhaustion) via a flood of malformed packets, which causes the server to slow down and fill the event logs with error messages.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1361",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-1361"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1421\ndescription: NBase switches NH208 and NH215 run a TFTP server which allows remote attackers to send software updates to modify the switch or cause a denial of service (crash) by guessing the target filenames, which have default names.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1421",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-1421"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0215\ndescription: Routed allows attackers to append data to files.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0215",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-0215"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0342\ndescription: Linux PAM modules allow local users to gain root access using temporary files.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0342",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-0342"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0520\ndescription: A system-critical NETBIOS/SMB share has inappropriate access control.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0520",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-0520"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0351\ndescription: FTP PASV \"Pizza Thief\" denial of service and unauthorized data access.  Attackers can steal data by connecting to a port that was intended for use by a client.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0351",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-0351"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0350\ndescription: Race condition in the db_loader program in ClearCase gives local users root access by setting SUID bits.\nseverity: \nrisk_score: 62",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0350",
+    "risk_score": 62,
+    "severity": "",
+    "title": "CVE-1999-0350"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0418\ndescription: Denial of service in SMTP applications such as Sendmail, when a remote attacker (e.g. spammer) uses many \"RCPT TO\" commands in the same connection.\nseverity: \nrisk_score: 64",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0418",
+    "risk_score": 64,
+    "severity": "",
+    "title": "CVE-1999-0418"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1471\ndescription: Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long shell or GECOS field.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1471",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1471"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1506\ndescription: Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to access user bin.\nseverity: \nrisk_score: 75",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1506",
+    "risk_score": 75,
+    "severity": "",
+    "title": "CVE-1999-1506"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2000-0388\ndescription: Buffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERMCAP environmental variable.\nseverity: \nrisk_score: 75",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2000-0388",
+    "risk_score": 75,
+    "severity": "",
+    "title": "CVE-2000-0388"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1198\ndescription: BuildDisk program on NeXT systems before 2.0 does not prompt users for the root password, which allows local users to gain root privileges.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1198",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1198"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1391\ndescription: Vulnerability in NeXT 1.0a and 1.0 with publicly accessible printers allows local users to gain privileges via a combination of the npd program and weak directory permissions.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1391",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1391"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1392\ndescription: Vulnerability in restore0.9 installation script in NeXT 1.0a and 1.0 allows local users to gain root privileges.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1392",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1392"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1197\ndescription: TIOCCONS in SunOS 4.1.1 does not properly check the permissions of a user who tries to redirect console output and input, which could allow a local user to gain privileges.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1197",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1197"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1115\ndescription: Vulnerability in the /etc/suid_exec program in HP Apollo Domain/OS sr10.2 and sr10.3 beta, related to the Korn Shell (ksh).\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1115",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1115"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1438\ndescription: Vulnerability in /bin/mail in SunOS 4.1.1 and earlier allows local users to gain root privileges via certain command line arguments.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1438",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1438"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1211\ndescription: Vulnerability in in.telnetd in SunOS 4.1.1 and earlier allows local users to gain root privileges.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1211",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1211"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1212\ndescription: Vulnerability in in.rlogind in SunOS 4.0.3 and 4.0.3c allows local users to gain root privileges.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1212",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1212"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1194\ndescription: chroot in Digital Ultrix 4.1 and 4.0 is insecurely installed, which allows local users to gain privileges.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1194",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1194"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1123\ndescription: The installation of Sun Source (sunsrc) tapes allows local users to gain root privileges via setuid root programs (1) makeinstall or (2) winstall.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1123",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1123"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1034\ndescription: Vulnerability in login in AT&T System V Release 4 allows local users to gain privileges.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1034",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1034"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1090\ndescription: The default configuration of NCSA Telnet package for Macintosh and PC enables FTP, even though it does not include an \"ftp=yes\" line, which allows remote attackers to read and modify arbitrary files.\nseverity: \nrisk_score: 75",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1090",
+    "risk_score": 75,
+    "severity": "",
+    "title": "CVE-1999-1090"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1121\ndescription: The default configuration for UUCP in AIX before 3.2 allows local users to gain root privileges.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1121",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1121"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0117\ndescription: AIX passwd allows local users to gain root access.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0117",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-0117"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1142\ndescription: SunOS 4.1.2 and earlier allows local users to gain privileges via \"LD_*\" environmental variables to certain dynamically linked setuid or setgid programs such as (1) login, (2) su, or (3) sendmail, that change the real and effective user ids to the same user.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1142",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1142"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0168\ndescription: The portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that would otherwise have taken place.  For example, NFS file systems could be mounted through the portmapper despite export restrictions.\nseverity: \nrisk_score: 75",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0168",
+    "risk_score": 75,
+    "severity": "",
+    "title": "CVE-1999-0168"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1396\ndescription: Vulnerability in integer multiplication emulation code on SPARC architectures for SunOS 4.1 through 4.1.2 allows local users to gain root access or cause a denial of service (crash).\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1396",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1396"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1395\ndescription: Vulnerability in Monitor utility (SYS$SHARE:SPISHR.EXE) in VMS 5.0 through 5.4-2 allows local users to gain privileges.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1395",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1395"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1306\ndescription: Cisco IOS 9.1 and earlier does not properly handle extended IP access lists when the IP route cache is enabled and the \"established\" keyword is set, which could allow attackers to bypass filters.\nseverity: \nrisk_score: 75",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1306",
+    "risk_score": 75,
+    "severity": "",
+    "title": "CVE-1999-1306"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1466\ndescription: Vulnerability in Cisco routers versions 8.2 through 9.1 allows remote attackers to bypass access control lists when extended IP access lists are used on certain interfaces, the IP route cache is enabled, and the access list uses the \"established\" keyword.\nseverity: \nrisk_score: 75",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1466",
+    "risk_score": 75,
+    "severity": "",
+    "title": "CVE-1999-1466"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1021\ndescription: NFS on SunOS 4.1 through 4.1.2 ignores the high order 16 bits in a 32 bit UID, which allows a local user to gain root access if the lower 16 bits are set to 0, as fixed by the NFS jumbo patch upgrade.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1021",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1021"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1507\ndescription: Sun SunOS 4.1 through 4.1.3 allows local attackers to gain root access via insecure permissions on files and directories such as crash.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1507",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1507"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1312\ndescription: Vulnerability in DEC OpenVMS VAX 5.5-2 through 5.0, and OpenVMS AXP 1.0, allows local users to gain system privileges.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1312",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1312"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1216\ndescription: Cisco routers 9.17 and earlier allow remote attackers to bypass security restrictions via certain IP source routed packets that should normally be denied using the \"no ip source-route\" command.\nseverity: \nrisk_score: 75",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1216",
+    "risk_score": 75,
+    "severity": "",
+    "title": "CVE-1999-1216"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1318\ndescription: /usr/5bin/su in SunOS 4.1.3 and earlier uses a search path that includes the current working directory (.), which allows local users to gain privileges via Trojan horse programs.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1318",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-1318"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0145\ndescription: Sendmail WIZ command enabled, allowing root access.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0145",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-0145"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0334\ndescription: In Solaris 2.2 and 2.3, when fsck fails on startup, it allows a local user with physical access to obtain root access.\nseverity: \nrisk_score: 72",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0334",
+    "risk_score": 72,
+    "severity": "",
+    "title": "CVE-1999-0334"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0084\ndescription: Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.\nseverity: high\nrisk_score: 84",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0084",
+    "risk_score": 84,
+    "severity": "high",
+    "title": "CVE-1999-0084"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0038\ndescription: Buffer overflow in xlock program allows local users to execute commands as root.\nseverity: high\nrisk_score: 84",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0038",
+    "risk_score": 84,
+    "severity": "high",
+    "title": "CVE-1999-0038"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0036\ndescription: IRIX login program with a nonzero LOCKOUT parameter allows creation or damage to files.\nseverity: high\nrisk_score: 84",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0036",
+    "risk_score": 84,
+    "severity": "high",
+    "title": "CVE-1999-0036"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0029\ndescription: root privileges via buffer overflow in ordist command on SGI IRIX systems.\nseverity: high\nrisk_score: 84",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0029",
+    "risk_score": 84,
+    "severity": "high",
+    "title": "CVE-1999-0029"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0013\ndescription: Stolen credentials from SSH clients via ssh-agent program, allowing other local users to access remote accounts belonging to the ssh-agent user.\nseverity: high\nrisk_score: 84",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0013",
+    "risk_score": 84,
+    "severity": "high",
+    "title": "CVE-1999-0013"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0069\ndescription: Solaris ufsrestore buffer overflow.\nseverity: high\nrisk_score: 84",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0069",
+    "risk_score": 84,
+    "severity": "high",
+    "title": "CVE-1999-0069"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0468\ndescription: Internet Explorer 5.0 allows a remote server to read arbitrary files on the client's file system using the Microsoft Scriptlet Component.\nseverity: high\nrisk_score: 82",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0468",
+    "risk_score": 82,
+    "severity": "high",
+    "title": "CVE-1999-0468"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-1471\ndescription: prefs.php in phpBB 1.4.0 and earlier allows remote authenticated users to execute arbitrary PHP code via an invalid language value, which prevents the variables (1) $l_statsblock in prefs.php or (2) $l_privnotify in auth.php from being properly initialized, which can be modified by the user and later used in an eval statement.\nseverity: high\nrisk_score: 88",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-1471",
+    "risk_score": 88,
+    "severity": "high",
+    "title": "CVE-2001-1471"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2002-2232\ndescription: Buffer overflow in Enceladus Server Suite 3.9 allows remote attackers to execute arbitrary code via a long CD (CWD) command.\nseverity: \nrisk_score: 85",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2002-2232",
+    "risk_score": 85,
+    "severity": "",
+    "title": "CVE-2002-2232"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2002-2233\ndescription: Directory traversal vulnerability in Enceladus Server Suite 3.9 allows remote attackers to list arbitrary directories and possibly cause a denial of service via \"@\" (at) characters in a CD (CWD) command, such as (1) \"@/....\\\", (2) \"@@@/..c:\\\", or (3) \"@/..@/..\".\nseverity: \nrisk_score: 83",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2002-2233",
+    "risk_score": 83,
+    "severity": "",
+    "title": "CVE-2002-2233"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2002-2313\ndescription: Eudora email client 5.1.1, with \"use Microsoft viewer\" enabled, allows remote attackers to execute arbitrary programs via an HTML email message containing a META refresh tag that references an embedded .mhtml file with ActiveX controls that execute a second embedded program, which is processed by Internet Explorer.\nseverity: \nrisk_score: 88",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2002-2313",
+    "risk_score": 88,
+    "severity": "",
+    "title": "CVE-2002-2313"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2003-1364\ndescription: Aprelium Technologies Abyss Web Server 1.1.2, and possibly other versions before 1.1.4, allows remote attackers to cause a denial of service (crash) via an HTTP GET message with empty (1) Connection or (2) Range fields.\nseverity: \nrisk_score: 85",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2003-1364",
+    "risk_score": 85,
+    "severity": "",
+    "title": "CVE-2003-1364"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2003-1377\ndescription: Buffer overflow in the reverse DNS lookup of Smart IRC Daemon (SIRCD) 0.4.0 and 0.4.4 allows remote attackers to execute arbitrary code via a client with a long hostname.\nseverity: \nrisk_score: 83",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2003-1377",
+    "risk_score": 83,
+    "severity": "",
+    "title": "CVE-2003-1377"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2003-1378\ndescription: Microsoft Outlook Express 6.0 and Outlook 2000, with the security zone set to Internet Zone, allows remote attackers to execute arbitrary programs via an HTML email with the CODEBASE parameter set to the program, a vulnerability similar to CAN-2002-0077.\nseverity: \nrisk_score: 88",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2003-1378",
+    "risk_score": 88,
+    "severity": "",
+    "title": "CVE-2003-1378"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2003-1393\ndescription: Buffer overflow in Gupta SQLBase 8.1.0 allows remote attackers to cause a denial of service and possibly execute arbitrary code via a long EXECUTE command.\nseverity: \nrisk_score: 85",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2003-1393",
+    "risk_score": 85,
+    "severity": "",
+    "title": "CVE-2003-1393"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2004-1967\ndescription: Cross-site request forgery (CSRF) vulnerabilities in (1) cp_forums.php, (2) cp_usergroup.php, (3) cp_ipbans.php, (4) myhome.php, (5) post.php, or (6) moderator.php in Open Bulletin Board (OpenBB) 1.0.6 and earlier allow remote attackers to execute arbitrary code by including the code in an image tag or a link.\nseverity: high\nrisk_score: 88",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2004-1967",
+    "risk_score": 88,
+    "severity": "high",
+    "title": "CVE-2004-1967"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2004-1703\ndescription: Fusion News 3.6.1 allows remote attackers to add user accounts, if the administrator is logged in, via a comment that contains an img bbcode tag that calls index.php with the signup action, which is executed when the administrator's browser loads the page with the img tag.\nseverity: high\nrisk_score: 88",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2004-1703",
+    "risk_score": 88,
+    "severity": "high",
+    "title": "CVE-2004-1703"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2004-1364\ndescription: Directory traversal vulnerability in extproc in Oracle 9i and 10g allows remote attackers to access arbitrary libraries outside of the $ORACLE_HOME\\bin directory.\nseverity: \nrisk_score: 85",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2004-1364",
+    "risk_score": 85,
+    "severity": "",
+    "title": "CVE-2004-1364"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2004-0638\ndescription: Buffer overflow in the KSDWRTB function in the dbms_system package (dbms_system.ksdwrt) for Oracle 9i Database Server Release 2 9.2.0.3 and 9.2.0.4, 9i Release 1 9.0.1.4 and 9.0.1.5, and 8i Release 1 8.1.7.4, allows remote authorized users to execute arbitrary code via a long second argument.\nseverity: \nrisk_score: 85",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2004-0638",
+    "risk_score": 85,
+    "severity": "",
+    "title": "CVE-2004-0638"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2004-1842\ndescription: Cross-site request forgery (CSRF) vulnerability in Php-Nuke 6.x through 7.1.0 allows remote attackers to gain administrative privileges via an img tag with a URL to admin.php.\nseverity: high\nrisk_score: 88",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2004-1842",
+    "risk_score": 88,
+    "severity": "high",
+    "title": "CVE-2004-1842"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2004-2111\ndescription: Stack-based buffer overflow in the site chmod command in Serv-U FTP Server before 4.2 allows remote attackers to execute arbitrary code via a long filename.\nseverity: \nrisk_score: 85",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2004-2111",
+    "risk_score": 85,
+    "severity": "",
+    "title": "CVE-2004-2111"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2004-2339\ndescription: Microsoft Windows 2000, XP, and possibly 2003 allows local users with the SeDebugPrivilege privilege to execute arbitrary code as kernel and read or write kernel memory via the NtSystemDebugControl function, which does not verify its pointer arguments.  Note: this issue has been disputed, since Administrator privileges are typically required to exploit this issue, thus privilege boundaries are not crossed\nseverity: high\nrisk_score: 84",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2004-2339",
+    "risk_score": 84,
+    "severity": "high",
+    "title": "CVE-2004-2339"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2004-2690\ndescription: Unrestricted file upload vulnerability in the Administration Panel for NewsPHP allows remote authenticated administrators to upload and execute arbitrary code instead of video files.\nseverity: \nrisk_score: 85",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2004-2690",
+    "risk_score": 85,
+    "severity": "",
+    "title": "CVE-2004-2690"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2005-0490\ndescription: Multiple stack-based buffer overflows in libcURL and cURL 7.12.1, and possibly other versions, allow remote malicious web servers to execute arbitrary code via base64 encoded replies that exceed the intended buffer lengths when decoded, which is not properly handled by (1) the Curl_input_ntlm function in http_ntlm.c during NTLM authentication or (2) the Curl_krb_kauth and krb4_auth functions in krb4.c during Kerberos authentication.\nseverity: high\nrisk_score: 88",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2005-0490",
+    "risk_score": 88,
+    "severity": "high",
+    "title": "CVE-2005-0490"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2005-1831\ndescription: Sudo 1.6.8p7 on SuSE Linux 9.3, and possibly other Linux distributions, allows local users to gain privileges by using sudo to call su, then entering a blank password and hitting CTRL-C. NOTE: SuSE and multiple third-party researchers have not been able to replicate this issue, stating \"Sudo catches SIGINT and returns an empty string for the password so I don't see how this could happen unless the user's actual password was empty.\nseverity: high\nrisk_score: 84",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2005-1831",
+    "risk_score": 84,
+    "severity": "high",
+    "title": "CVE-2005-1831"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2005-2572\ndescription: MySQL, when running on Windows, allows remote authenticated users with insert privileges on the mysql.func table to cause a denial of service (server hang) and possibly execute arbitrary code via (1) a request for a non-library file, which causes the Windows LoadLibraryEx function to block, or (2) a request for a function in a library that has the XXX_deinit or XXX_init functions defined but is not tailored for mySQL, such as jpeg1x32.dll and jpeg2x32.dll.\nseverity: \nrisk_score: 85",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2005-2572",
+    "risk_score": 85,
+    "severity": "",
+    "title": "CVE-2005-2572"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2006-1078\ndescription: Multiple buffer overflows in htpasswd, as used in Acme thttpd 2.25b, and possibly other products such as Apache, might allow local users to gain privileges via (1) a long command line argument and (2) a long line in a file.  NOTE: since htpasswd is normally installed as a non-setuid program, and the exploit is through command line options, perhaps this issue should not be included in CVE.  However, if there are some typical or recommended configurations that use htpasswd with sudo privileges, or common products that access htpasswd remotely, then perhaps it should be included.\nseverity: high\nrisk_score: 84",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2006-1078",
+    "risk_score": 84,
+    "severity": "high",
+    "title": "CVE-2006-1078"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2006-2492\ndescription: Buffer overflow in Microsoft Word in Office 2000 SP3, Office XP SP3, Office 2003 Sp1 and SP2, and Microsoft Works Suites through 2006, allows user-assisted attackers to execute arbitrary code via a malformed object pointer, as originally reported by ISC on 20060519 for a zero-day attack.\nseverity: high\nrisk_score: 88",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2006-2492",
+    "risk_score": 88,
+    "severity": "high",
+    "title": "CVE-2006-2492"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2006-3730\ndescription: Integer overflow in Microsoft Internet Explorer 6 on Windows XP SP2 allows remote attackers to cause a denial of service (crash) and execute arbitrary code via a 0x7fffffff argument to the setSlice method on a WebViewFolderIcon ActiveX object, which leads to an invalid memory copy.\nseverity: high\nrisk_score: 88",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2006-3730",
+    "risk_score": 88,
+    "severity": "high",
+    "title": "CVE-2006-3730"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0095\ndescription: The debug command in Sendmail is enabled, allowing attackers to execute commands as root.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0095",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0095"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0082\ndescription: CWD ~root command in ftpd allows root access.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0082",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0082"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1467\ndescription: Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to the configuration of the nobody user.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1467",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-1467"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1193\ndescription: The \"me\" user in NeXT NeXTstep 2.1 and earlier has wheel group privileges, which could allow the me user to use the su command to become root.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1193",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-1193"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0498\ndescription: TFTP is not running in a restricted directory, allowing a remote attacker to access sensitive information such as password files.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0498",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0498"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1493\ndescription: Vulnerability in crp in Hewlett Packard Apollo Domain OS SR10 through SR10.3 allows remote attackers to gain root privileges via insecure system calls, (1) pad_$dm_cmd and (2) pad_$def_pfk().\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1493",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-1493"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1032\ndescription: Vulnerability in LAT/Telnet Gateway (lattelnet) on Ultrix 4.1 and 4.2 allows attackers to gain root privileges.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1032",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-1032"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1059\ndescription: Vulnerability in rexec daemon (rexecd) in AT&T TCP/IP 4.0 for various SVR4 systems allows remote attackers to execute arbitrary commands.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1059",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-1059"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1119\ndescription: FTP installation script anon.ftp in AIX insecurely configures anonymous FTP, which allows remote attackers to execute arbitrary commands.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1119",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-1119"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0214\ndescription: Denial of service by sending forged ICMP unreachable packets.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0214",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0214"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0124\ndescription: Vulnerabilities in UMN gopher and gopher+ versions 1.12 and 2.0x allow an intruder to read any files that can be accessed by the gopher daemon.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0124",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0124"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1138\ndescription: SCO UNIX System V/386 Release 3.2, and other SCO products, installs the home directories (1) /tmp for the dos user, and (2) /usr/tmp for the asg user, which allows other users to gain access to those accounts since /tmp and /usr/tmp are world-writable.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1138",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-1138"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0113\ndescription: Some implementations of rlogin allow root access if given a -froot parameter.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0113",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0113"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0232\ndescription: Buffer overflow in NCSA WebServer (version 1.5c) gives remote access.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0232",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0232"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0235\ndescription: Buffer overflow in NCSA WebServer (1.4.1 and below) gives remote access.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0235",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0235"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0066\ndescription: AnyForm CGI remote execution.\nseverity: critical\nrisk_score: 98",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0066",
+    "risk_score": 98,
+    "severity": "critical",
+    "title": "CVE-1999-0066"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0203\ndescription: In Sendmail, attackers can gain root privileges via SMTP by specifying an improper \"mail from\" address and an invalid \"rcpt to\" address that would cause the mail to bounce to a program.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0203",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0203"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0073\ndescription: Telnet allows a remote client to specify environment variables including LD_LIBRARY_PATH, allowing an attacker to bypass the normal system libraries and gain root access.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0073",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0073"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0099\ndescription: Buffer overflow in syslog utility allows local or remote attackers to gain root privileges.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0099",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0099"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0241\ndescription: Guessable magic cookies in X Windows allows remote attackers to execute commands, e.g. through xterm.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0241",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0241"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0080\ndescription: Certain configurations of wu-ftp FTP server 2.4 use a _PATH_EXECPATH setting to a directory with dangerous commands, such as /bin, which allows remote authenticated users to gain root access via the \"site exec\" command.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0080",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0080"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0208\ndescription: rpc.ypupdated (NIS) allows remote users to execute arbitrary commands.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0208",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0208"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-1319\ndescription: Vulnerability in object server program in SGI IRIX 5.2 through 6.1 allows remote attackers to gain root privileges in certain configurations.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-1319",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-1319"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0233\ndescription: IIS 1.0 allows users to execute arbitrary commands using .bat or .cmd files.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0233",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0233"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0067\ndescription: phf CGI program allows remote command execution through shell metacharacters.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0067",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0067"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0509\ndescription: Perl, sh, csh, or other shell interpreters are installed in the cgi-bin directory on a WWW site, which allows remote attackers to execute arbitrary commands.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0509",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0509"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0206\ndescription: MIME buffer overflow in Sendmail 8.8.0 and 8.8.1 gives root access.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0206",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0206"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0246\ndescription: HP Remote Watch allows a remote user to gain root access.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0246",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0246"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0043\ndescription: Command execution via shell metachars in INN daemon (innd) 1.5 using \"newgroup\" and \"rmgroup\" control messages, and others.\nseverity: critical\nrisk_score: 98",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0043",
+    "risk_score": 98,
+    "severity": "critical",
+    "title": "CVE-1999-0043"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-1999-0101\ndescription: Buffer overflow in AIX and Solaris \"gethostbyname\" library call allows root access through corrupt DNS host names.\nseverity: \nrisk_score: 100",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-1999-0101",
+    "risk_score": 100,
+    "severity": "",
+    "title": "CVE-1999-0101"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0143\ndescription: vpop3d program in linuxconf 1.23r and earlier allows local users to overwrite arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0143",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0143"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0222\ndescription: webmin 0.84 and earlier allows local users to overwrite and create arbitrary files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0222",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0222"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-1331\ndescription: mandb in the man-db package before 2.3.16-3 allows local users to overwrite arbitrary files via the command line options (1) -u or (2) -c, which do not drop privileges and follow symlinks.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-1331",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-1331"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-1333\ndescription: Linux CUPS before 1.1.6 does not securely handle temporary files, possibly due to a symlink vulnerability that could allow local users to overwrite files.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-1333",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-1333"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-1346\ndescription: Computer Associates ARCserveIT 6.61 and 6.63 (also called ARCservIT) allows local users to overwrite arbitrary files via a symlink attack on the temporary files (1) asagent.tmp or (2) inetd.tmp.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-1346",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-1346"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-1047\ndescription: Race condition in OpenBSD VFS allows local users to cause a denial of service (kernel panic) by (1) creating a pipe in one thread and causing another thread to set one of the file descriptors to NULL via a close, or (2) calling dup2 on a file descriptor in one process, then setting the descriptor to NULL via a close in another process that is created via rfork.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-1047",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-1047"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-1256\ndescription: kmmodreg in HP-UX 11.11, 11.04 and 11.00 allows local users to create arbitrary world-writeable files via a symlink attack on the (1) /tmp/.kmmodreg_lock and (2) /tmp/kmpath.tmp temporary files.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-1256",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-1256"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-1276\ndescription: ispell before 3.1.20 allows local users to overwrite files of other users via a symlink attack on a temporary file.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-1276",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-1276"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-1146\ndescription: AllCommerce with debugging enabled in EnGarde Secure Linux 1.0.1 creates temporary files with predictable names, which allows local users to modify files via a symlink attack.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-1146",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-1146"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-1301\ndescription: rcs2log, as used in Emacs 20.4, xemacs 21.1.10 and other versions before 21.4, and possibly other packages, allows local users to modify files of other users via a symlink attack on a temporary file.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-1301",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-1301"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2001-0887\ndescription: xSANE 0.81 and earlier allows local users to modify files of other xSANE users via a symlink attack on temporary files.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2001-0887",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2001-0887"
+  },
+  {
+    "text": "REFERENCE CVE CASE (for calibration only)\ncve_id: CVE-2002-0141\ndescription: Maelstrom GPL 3.0.1 allows local users to overwrite arbitrary files of other Maelstrom users via a symlink attack on the /tmp/f file.\nseverity: \nrisk_score: 12",
+    "record_type": "cve_reference",
+    "cve_id": "CVE-2002-0141",
+    "risk_score": 12,
+    "severity": "",
+    "title": "CVE-2002-0141"
+  }
+]

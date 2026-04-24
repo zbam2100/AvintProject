@@ -4,9 +4,9 @@ import re
 from pathlib import Path
 from datetime import datetime
 
-from config import RISK_TAX_FILE, OLLAMA_URL, OLLAMA_MODEL, TOP_K
-from ingest import load_risk_taxonomy, risk_taxonomy_to_text
-from generate import ask_ollama
+import requests
+
+from config import OLLAMA_URL, OLLAMA_MODEL
 from storage import save_run_file
 
 
@@ -29,6 +29,66 @@ def load_test_data(file_path: Path):
         validated.append(item)
 
     return validated
+
+
+def build_control_prompt(query: str, description: str):
+    prompt = f"""You are a cybersecurity risk analyst.
+
+Assess the following vulnerability description using only the information provided in the description.
+
+You must give a numerical risk score.
+If the description is insufficient, say so clearly.
+
+VULNERABILITY DESCRIPTION:
+{description}
+
+USER QUERY:
+{query}
+
+Return your answer in this format:
+
+Risk Assessment:
+- Overall risk level: 0-100
+- Confidence: 0-100
+- Short justification:
+
+Threats:
+- Threat 1:
+- Threat 2:
+- Threat 3:
+
+Affected Assets / Systems:
+- ...
+
+Indicators / Relevant Entities:
+- ...
+
+Recommended Next Steps:
+- ...
+
+Use concise language and do not invent facts that are not supported by the description.
+"""
+    return prompt
+
+
+def ask_ollama_control(query: str, description: str, ollama_url: str, ollama_model: str):
+    prompt = build_control_prompt(query, description)
+
+    response = requests.post(
+        ollama_url,
+        json={
+            "model": ollama_model,
+            "messages": [
+                {"role": "user", "content": prompt}
+            ],
+            "stream": False
+        },
+        timeout=120
+    )
+
+    response.raise_for_status()
+    answer = response.json()["message"]["content"]
+    return prompt, answer
 
 
 def extract_risk_score(answer_text: str):
@@ -84,11 +144,7 @@ def accuracy_within_threshold(y_true, y_pred, threshold=10):
     return correct / len(y_true) if y_true else 0.0
 
 
-def run_test():
-    print("Loading risk taxonomy...")
-    taxonomy = load_risk_taxonomy(RISK_TAX_FILE)
-    taxonomy_text = risk_taxonomy_to_text(taxonomy)
-
+def run_control_test():
     print("Loading test data...")
     test_items = load_test_data(TEST_DATA_FILE)
     print(f"Loaded {len(test_items)} test cases")
@@ -97,10 +153,12 @@ def run_test():
     y_pred = []
 
     run_payload = {
-        "run_type": "test",
+        "run_type": "control_test",
         "timestamp": datetime.now().isoformat(),
         "model": OLLAMA_MODEL,
         "test_data_file": str(TEST_DATA_FILE),
+        "uses_rag": False,
+        "uses_taxonomy": False,
         "cases": []
     }
 
@@ -109,15 +167,13 @@ def run_test():
         actual_score = float(item["risk_score"])
 
         query = "Assess the risk and enumerate the most likely threats from this vulnerability description."
-        retrieved_chunks = [{"text": description}]
 
-        print(f"\n[{i}/{len(test_items)}] Running test case...")
+        print(f"\n[{i}/{len(test_items)}] Running control test case...")
 
         try:
-            prompt, answer = ask_ollama(
+            prompt, answer = ask_ollama_control(
                 query=query,
-                retrieved_chunks=retrieved_chunks,
-                taxonomy_text=taxonomy_text,
+                description=description,
                 ollama_url=OLLAMA_URL,
                 ollama_model=OLLAMA_MODEL
             )
@@ -133,7 +189,6 @@ def run_test():
             error = predicted_score - actual_score
             abs_error = abs(error)
 
-            
             run_payload["cases"].append({
                 "case_id": f"case_{i:03d}",
                 "description": description,
@@ -144,7 +199,6 @@ def run_test():
                 "prompt": prompt,
                 "response": answer
             })
-            
 
             y_true.append(actual_score)
             y_pred.append(predicted_score)
@@ -177,12 +231,10 @@ def run_test():
         "accuracy_within_15": accuracy_within_threshold(y_true, y_pred, threshold=15) if y_true else None,
     }
 
-    testset_name = Path(TEST_DATA_FILE).stem
-
-    file_path = save_run_file(f"test_k{TOP_K}_{testset_name}", run_payload)
+    file_path = save_run_file("control_test_run", run_payload)
 
     print("\nDone.")
-    print(f"Saved test run to: {file_path}")
+    print(f"Saved control test run to: {file_path}")
 
     if y_true:
         print("\nSummary metrics:")
@@ -196,4 +248,4 @@ def run_test():
 
 
 if __name__ == "__main__":
-    run_test()
+    run_control_test()
