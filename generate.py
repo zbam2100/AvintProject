@@ -4,6 +4,7 @@ import requests
 def build_prompt(query, retrieved_chunks, taxonomy_text):
     context = "\n\n".join(chunk["text"] for chunk in retrieved_chunks)
 
+
     prompt = f"""You are a cybersecurity risk analyst.
 
 Use the risk taxonomy and guidance below as the framework for your reasoning.
@@ -13,7 +14,9 @@ Base your answer only on:
 
 You must give a numerical risk score based on the taxonomy guidelines.
 If the context is insufficient, say so clearly.
-All threate and indicators should be clearly justified.
+All threats and indicators should be clearly justified.
+If there is no vulnerabilities in the query state so clearly
+You do not have to full out the threat section if there are no threats
 
 RISK TAXONOMY / GUIDELINES:
 {taxonomy_text}
@@ -47,6 +50,8 @@ Recommended Next Steps:
 
 Use concise language and do not invent facts that are not supported by the context or taxonomy.
 """
+
+
     return prompt
 
 

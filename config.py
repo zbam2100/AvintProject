@@ -7,9 +7,11 @@ DATA_FILES = [
 
 RISK_TAX_FILE = Path("/home/avint/risktax.json")
 
+CVE_REFERENCE_FILE = Path("/home/avint/cve_reference_300.json")
+
 OLLAMA_URL = "http://localhost:11434/api/chat"
 OLLAMA_MODEL = "llama3"
 
 EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
 
-TOP_K = 5
+TOP_K = 15

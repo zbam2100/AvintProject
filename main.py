@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from config import DATA_FILES, RISK_TAX_FILE, OLLAMA_URL, OLLAMA_MODEL, EMBED_MODEL_NAME, TOP_K
-from ingest import load_multiple_files, load_risk_taxonomy, risk_taxonomy_to_text, prepare_chunks
+from config import DATA_FILES, CVE_REFERENCE_FILE, RISK_TAX_FILE, OLLAMA_URL, OLLAMA_MODEL, EMBED_MODEL_NAME, TOP_K
+from ingest import load_multiple_files, load_prechunked_json, load_risk_taxonomy, risk_taxonomy_to_text, prepare_chunks
 from embed_store import build_vector_store
 from retrieve import retrieve_chunks
 from generate import ask_ollama
@@ -29,6 +29,13 @@ def main():
     print("Preparing chunks...")
     chunk_records = prepare_chunks(records)
     print(f"Prepared {len(chunk_records)} chunks")
+
+    print("Loading CVE reference chunks...")
+    cve_chunks = load_prechunked_json(CVE_REFERENCE_FILE)
+    print(f"Loaded {len(cve_chunks)} CVE reference chunks")
+
+    chunk_records.extend(cve_chunks)
+    print(f"Total chunks after CVE merge: {len(chunk_records)}")
 
     print("Building vector store...")
     embed_model, index = build_vector_store(chunk_records, EMBED_MODEL_NAME)

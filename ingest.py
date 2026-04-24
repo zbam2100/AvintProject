@@ -42,6 +42,14 @@ def load_multiple_files(file_paths):
 
     return all_records
 
+def load_prechunked_json(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    if not isinstance(data, list):
+        raise ValueError("Prechunked JSON file must contain a list of chunk objects.")
+
+    return data
 
 def _join_entity_list(values):
     if not values:
